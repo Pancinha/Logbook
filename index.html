@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,100;1,700&family=Montserrat:ital,wght@0,300;0,700;0,800;0,900;1,300;1,500;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&display=swap" rel="stylesheet">
+    <title>Hospital Restinga e Extremo-Sul</title>
+</head>
+<body>
+    <section class="content">
+        <div class="contato">
+            <br>
+            <div id="title">Diário de Bordo - HRES</div>
+            <form class="form" action="./email.php" method="post">
+                <input class="field" name="name" placeholder="Nome" required="required">
+                <input class="field" name="lider" placeholder="Liderança" required="required">
+                <input class="field" name="setor" placeholder="Setor" required="required">
+                <select name="classific" class="field" required="required">
+                    <option value="" disabled selected>--</option>
+                    <option value="Falta">Falta</option>
+                    <option value="Advertência">Advertência</option>
+                    <option value="Situacional">Situacional</option>
+                    <option value="Acompanhamento">Acompanhamento</option>
+                </select>
+
+                <input class="field" name="email" placeholder="E-mail" required="required">
+                <!--<label><input type="file" name="arquivo" class="anexo"></label>-->
+                <textarea name="message" class="field2" placeholder="Digite sua mensagem aqui." required="required"></textarea>
+                <input id="botao" type="submit" value="Enviar">
+            </form>
+            <br>
+        </div>
+        
+    </section>
+    <div class="container">
+        <img src="../formPHP/imgs/personFundo.png" class="person">
+        <!--<img src="../formPHP/imgs/imagemForm.png" class="person2">-->
+    </div>
+    <div id="final">
+        © Copyright 2022 | TI Hres | Todos os Direitos Reservados | Desenvolvido por Rafael Pancinha
+    </div>
+    <script src="../formPHP/javascript.js"></script>
+</body>
+</html>

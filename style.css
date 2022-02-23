@@ -1,0 +1,155 @@
+#title{
+    text-align: center;
+    font-size: 47px;
+    color: white;
+    margin-top: 12%;
+    font-family: 'EB Garamond', serif;
+    margin-bottom: 20px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #41466e;
+}
+.content{
+    margin-right: -8px;
+    margin-left: -8px;
+    background-color: #f9f9fb;
+    
+
+
+}
+.person{
+    width: 29%;
+    margin-top: -16%;
+    float: right;
+    margin-right: 44px;
+}
+.person2{
+    width: 57%;
+    float: right;
+    margin-top: 17%;
+}
+.contato{
+    margin-top: -1%;
+    width: 28%;
+    /* max-width: 506px; */
+    background-color: #012148;
+    margin-bottom: -13%;
+    font-family: 'Montserrat', sans-serif;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.field{
+    padding: 10px;
+    margin-bottom: 15px;
+    margin-left: 37px;
+    margin-right: 37px;
+    font-family: 'Montserrat', sans-serif;
+    border-style: outset;
+    border-color: #6a5afff5;
+    border-width: 2px;
+    font-size: 16px;
+    border-radius: 6px;
+    font-weight: 700;
+    color: grey;
+
+}
+.field2{
+    padding: 10px;
+    margin-bottom: 50px;
+    margin-left: 37px;
+    margin-right: 37px;
+    font-family: 'Montserrat', sans-serif;
+    border-style: outset;
+    border-color: #6a5afff5;
+    border-width: 2px;
+    font-size: 16px;
+    border-radius: 6px;
+    font-weight: 700;
+    color: grey;
+}
+#anexo{
+    color: white;
+    padding: 10px;
+    margin-bottom: 15px;
+    margin-left: 23px;
+    margin-right: 23px;
+}
+#botao{
+    border-radius: 50px;
+    padding: 10px;
+    margin-bottom: 124px;
+    margin-left: 37px;
+    margin-right: 37px;
+    width: 102px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+textarea{
+    height:150px ;
+    font-weight: 700;
+}
+.container{
+    background-color: #41466e;
+    text-align: end;
+    margin-top: 7%;
+    height: 243px;
+    margin-bottom: -63px;
+    margin-left: -7px;
+    margin-right: -7px;
+    
+}
+#final{
+    text-align: center;
+    color: white;
+    font-size: 12px;
+}
+
+
+
+
+@media only screen and (max-device-width: 1600px) {
+    .person{
+        margin-top: -16%;
+    }
+    .container{
+        background-color: #41466e;
+        text-align: end;
+        margin-top: 4%;
+        height: 122px;
+        margin-bottom: -58px;
+    }
+    #title{
+        text-align: center;
+        font-size: 42px;
+        color: white;
+        margin-top: 6%;
+        font-family: 'EB Garamond', serif;
+        margin-bottom: 20px;
+    }
+    #botao{
+        border-radius: 50px;
+        padding: 10px;
+        margin-bottom: 59px;
+        margin-left: 37px;
+        margin-right: 37px;
+        width: 102px;
+    }
+    .contato{
+        margin-top: -1%;
+        width: 32%;
+        background-color: #012148;
+        margin-bottom: -8%;;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .field2{
+        margin-bottom: 28px;
+        color: grey;
+    }
+    #final{
+        width: 100%;
+        text-align: center;
+    }
+}
